@@ -15,7 +15,7 @@ The dataset is organized into train/validation/test splits. Each split contains 
 
 | crack                                                    | damp                                                                                                        | mold                                                    | peeling                                                    | spalling                                                    |
 | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- |
-| <img src="cls01_001.jpg" alt="crack sample" width="180"> | <img src="dacl10k_v2_train_1126_jpg.rf.ddd594f23db165a12b444b0863a325d2.jpg" alt="damp sample" width="180"> | <img src="cls00_102.jpg" alt="mold sample" width="180"> | <img src="cls03_001.jpg" alt="peeling sample" width="180"> | <img src="cls05_002.jpg" alt="spalling sample" width="180"> |
+| <img src="cls01_001.jpg" alt="crack sample" width="180"> | <img src="image.png" alt="damp sample" width="180"> | <img src="cls00_102.jpg" alt="mold sample" width="180"> | <img src="cls03_001.jpg" alt="peeling sample" width="180"> | <img src="cls05_002.jpg" alt="spalling sample" width="180"> |
 
 ## Method
 
