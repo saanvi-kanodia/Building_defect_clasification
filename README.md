@@ -24,13 +24,13 @@ The dataset is organized into train/validation/test splits. Each split contains 
 
 ### Class Examples
 
-| Class    | Example Image                                                                                                                  |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| crack    | <img src="dataset/train/crack/cls01_001.jpg" alt="crack sample" width="220">                                                   |
-| damp     | <img src="dataset/train/damp/dacl10k_v2_train_1126_jpg.rf.ddd594f23db165a12b444b0863a325d2.jpg" alt="damp sample" width="220"> |
-| mold     | <img src="dataset/train/mold/cls00_102.jpg" alt="mold sample" width="220">                                                     |
-| peeling  | <img src="dataset/train/peeling/cls03_001.jpg" alt="peeling sample" width="220">                                               |
-| spalling | <img src="dataset/train/spalling/cls05_002.jpg" alt="spalling sample" width="220">                                             |
+| Class    | Example Image                                                                                               |
+| -------- | ----------------------------------------------------------------------------------------------------------- |
+| crack    | <img src="cls01_001.jpg" alt="crack sample" width="220">                                                    |
+| damp     | <img src="dacl10k_v2_train_1126_jpg.rf.ddd594f23db165a12b444b0863a325d2.jpg" alt="damp sample" width="220"> |
+| mold     | <img src="cls00_102.jpg" alt="mold sample" width="220">                                                     |
+| peeling  | <img src="cls03_001.jpg" alt="peeling sample" width="220">                                                  |
+| spalling | <img src="cls05_002.jpg" alt="spalling sample" width="220">                                                 |
 
 ## Method
 
