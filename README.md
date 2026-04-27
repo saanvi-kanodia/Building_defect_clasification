@@ -12,13 +12,6 @@ The goal is to experiment and identify defect type using:
 
 The dataset is organized into train/validation/test splits. Each split contains five defect classes:
 
-- `crack`
-- `damp`
-- `mold`
-- `peeling`
-- `spalling`
-
-### Class Examples
 
 | crack                                                    | damp                                                                                                        | mold                                                    | peeling                                                    | spalling                                                    |
 | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- |
