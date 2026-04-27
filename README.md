@@ -1,19 +1,13 @@
 # IVP Research: Wall Defect Classification
 
-## Aim
-
 This project focuses on automatic classification of common wall defects from images.
-
-The goal is to identify defect type using:
-
+The goal is to experiment and identify defect type using:
 - Deep image features from a CNN branch
 - Hand-crafted (classical) visual features
 - A fusion model that combines both
-
-Target use case: support faster and more consistent visual inspection of building walls.
+To support faster and more consistent visual inspection of building walls.
 
 ## Data Classes
-
 The dataset is organized into train/validation/test splits. Each split contains five defect classes:
 
 - `crack`
