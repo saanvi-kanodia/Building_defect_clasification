@@ -2,12 +2,14 @@
 
 This project focuses on automatic classification of common wall defects from images.
 The goal is to experiment and identify defect type using:
+
 - Deep image features from a CNN branch
 - Hand-crafted (classical) visual features
 - A fusion model that combines both
-To support faster and more consistent visual inspection of building walls.
+  To support faster and more consistent visual inspection of building walls.
 
 ## Data Classes
+
 The dataset is organized into train/validation/test splits. Each split contains five defect classes:
 
 - `crack`
@@ -18,13 +20,9 @@ The dataset is organized into train/validation/test splits. Each split contains 
 
 ### Class Examples
 
-| Class    | Example Image                                                                                               |
-| -------- | ----------------------------------------------------------------------------------------------------------- |
-| crack    | <img src="cls01_001.jpg" alt="crack sample" width="220">                                                    |
-| damp     | <img src="dacl10k_v2_train_1126_jpg.rf.ddd594f23db165a12b444b0863a325d2.jpg" alt="damp sample" width="220"> |
-| mold     | <img src="cls00_102.jpg" alt="mold sample" width="220">                                                     |
-| peeling  | <img src="cls03_001.jpg" alt="peeling sample" width="220">                                                  |
-| spalling | <img src="cls05_002.jpg" alt="spalling sample" width="220">                                                 |
+| crack                                                    | damp                                                                                                        | mold                                                    | peeling                                                    | spalling                                                    |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- |
+| <img src="cls01_001.jpg" alt="crack sample" width="180"> | <img src="dacl10k_v2_train_1126_jpg.rf.ddd594f23db165a12b444b0863a325d2.jpg" alt="damp sample" width="180"> | <img src="cls00_102.jpg" alt="mold sample" width="180"> | <img src="cls03_001.jpg" alt="peeling sample" width="180"> | <img src="cls05_002.jpg" alt="spalling sample" width="180"> |
 
 ## Method
 
@@ -63,7 +61,8 @@ The repository contains and uses multiple model strategies:
 
 - Fusion deep model (TensorFlow/Keras)
   - Script: `fusion_model.py`
-  - Saved checkpoints: `best_wall_phase1.keras`, `best_wall_phase2.keras`
+  - CNN-based image branch
+  - Classical vector branch
 
 - Classical ML baselines
   - Script: `feature_vector_classical.py`
@@ -79,8 +78,3 @@ The repository contains and uses multiple model strategies:
 - `fusion_model.py` - fusion training + inference pipeline
 - `feature_vector_classical.py` - classical ML feature pipeline
 - `feature_analysis.py` - feature attribution/contribution analysis
-
-## Notes
-
-- Large datasets and model artifacts are ignored by `.gitignore` for cleaner Git history.
-- Keep directory names and class folders unchanged to avoid label mismatch.
