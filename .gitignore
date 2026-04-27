@@ -1,0 +1,22 @@
+.DS_Store
+.venv/
+.new_venv/
+
+__pycache__/
+
+1/
+2/
+3/
+dataset/
+result/
+
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+
+# Generated analysis outputs
+feature_analysis.csv
+feature_analysis_*.csv
